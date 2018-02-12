@@ -1,0 +1,12 @@
+spring:
+  redis:
+    password: 123456
+
+
+
+server:
+  tomcat:
+    uri-encoding: utf-8
+
+
+

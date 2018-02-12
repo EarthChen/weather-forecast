@@ -12,6 +12,8 @@
         <module>micro-weather-basic</module>
         <module>micro-weather-redis</module>
         <module>micro-weather-quartz</module>
+        <module>micro-weather-report</module>
+        <module>msa-weather-collection-server</module>
     </modules>
 
     <dependencyManagement>
