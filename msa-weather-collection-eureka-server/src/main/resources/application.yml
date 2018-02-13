@@ -1,0 +1,22 @@
+spring:
+  redis:
+    password: 123456
+
+  application:
+      name: micro-weather-collection-eureka-client
+
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8082
+
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+

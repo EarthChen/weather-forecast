@@ -1,0 +1,29 @@
+spring:
+  thymeleaf:
+    cache: false
+    content-type: text/html
+    enabled: true
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+
+  application:
+      name: micro-weather-report-eureka-client
+
+
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8084
+
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+

@@ -19,6 +19,10 @@
         <module>msa-weather-city-server</module>
         <module>micro-weather-eureka-server</module>
         <module>micro-weather-eureka-client</module>
+        <module>msa-weather-collection-eureka-server</module>
+        <module>msa-weather-report-eureka-server</module>
+        <module>msa-weather-data-eureka-server</module>
+        <module>msa-weather-city-eureka-server</module>
     </modules>
 
     <dependencyManagement>

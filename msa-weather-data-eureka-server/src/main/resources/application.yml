@@ -1,0 +1,31 @@
+spring:
+  redis:
+    password: 123456
+
+  application:
+      name: micro-weather-data-eureka-client
+
+
+  thymeleaf:
+    cache: false
+    content-type: text/html
+    enabled: true
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+
+
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8083
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
