@@ -15,6 +15,7 @@
         <module>micro-weather-report</module>
         <module>msa-weather-collection-server</module>
         <module>msa-weather-data-server</module>
+        <module>msa-weather-report-server</module>
     </modules>
 
     <dependencyManagement>
