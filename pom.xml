@@ -16,6 +16,7 @@
         <module>msa-weather-collection-server</module>
         <module>msa-weather-data-server</module>
         <module>msa-weather-report-server</module>
+        <module>msa-weather-city-server</module>
     </modules>
 
     <dependencyManagement>
