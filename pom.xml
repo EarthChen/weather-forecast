@@ -14,6 +14,7 @@
         <module>micro-weather-quartz</module>
         <module>micro-weather-report</module>
         <module>msa-weather-collection-server</module>
+        <module>msa-weather-data-server</module>
     </modules>
 
     <dependencyManagement>
