@@ -26,6 +26,7 @@
         <module>micro-weather-eureka-client-feign</module>
         <module>msa-weather-collection-eureka-feign</module>
         <module>msa-weather-report-eureka-feign</module>
+        <module>micro-weather-eureka-client-zuul</module>
     </modules>
 
     <dependencyManagement>

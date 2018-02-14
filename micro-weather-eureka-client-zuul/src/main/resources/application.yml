@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: micro-weather-eureka-client-zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    hi:
+    # 当有hi的路径请求，转发到指定客户端
+      path: /hi/**
+      serviceId: micro-weather-eureka-client
+
+server:
+  port: 8088
+
