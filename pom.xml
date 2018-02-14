@@ -24,6 +24,7 @@
         <module>msa-weather-data-eureka-server</module>
         <module>msa-weather-city-eureka-server</module>
         <module>micro-weather-eureka-client-feign</module>
+        <module>msa-weather-collection-eureka-feign</module>
     </modules>
 
     <dependencyManagement>

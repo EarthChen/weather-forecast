@@ -1,0 +1,25 @@
+spring:
+  redis:
+    password: 123456
+
+  application:
+      name: msa-weather-collection-eureka-feign
+
+server:
+  tomcat:
+    uri-encoding: utf-8
+  port: 8086
+
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    eureka-server-connect-timeout-seconds: 5000
+    eureka-server-read-timeout-seconds: 5000
+
+
+
+
