@@ -32,6 +32,7 @@
         <module>micro-weather-config-server</module>
         <module>micro-weather-config-client</module>
         <module>micro-weather-eureka-client-feign-hystrix</module>
+        <module>msa-weather-report-eureka-feign-gateway-hystrix</module>
     </modules>
 
     <dependencyManagement>
