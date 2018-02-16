@@ -1,0 +1,10 @@
+spring:
+  application:
+    name:  micro-weather-config-client
+  cloud:
+    config:
+      label: master
+      profile:  dev
+      uri: http://localhost:8091/
+server:
+  port: 8092
