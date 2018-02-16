@@ -31,6 +31,7 @@
         <module>msa-weather-eureka-client-zuul</module>
         <module>micro-weather-config-server</module>
         <module>micro-weather-config-client</module>
+        <module>micro-weather-eureka-client-feign-hystrix</module>
     </modules>
 
     <dependencyManagement>
